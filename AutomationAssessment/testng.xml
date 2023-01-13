@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/aabda/Documents/automation_assessment/AutomationAssessment">
+        <classes>
+            <class name="Registration.RegistrationTest">
+                <methods>
+                    <include name="validRegistration"/>
+                </methods>
+
+            </class>
+            <class name="Login.LoginTests">
+                <methods>
+                    <include name="validLogin"/>
+                </methods>
+            </class>
+            <class name="CheckOutTests.CompleteCheckout">
+                <methods>
+                    <include name="selectItem"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
